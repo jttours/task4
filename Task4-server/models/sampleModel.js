@@ -2,7 +2,7 @@ let mongoose = require('mongoose');
 
 
 
-// Employee Schema
+// SampleModel Schema
 const SampleModel = mongoose.model('SampleModel', {
     name: {
         type: String,

@@ -12,9 +12,9 @@ const PORT = 5500;
 app.use(express.json());
 
 
-app.get('/', (req, res) => {
-    res.send('Hello World');
-});
+// app.get('/', (req, res) => {
+//     res.send('Hello World');
+// });
 
 
 // Routes
