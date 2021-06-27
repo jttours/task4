@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "./Task4-client",
+			"name": "frontend"
+		},
+		{
+			"path": "./Task4-server",
+			"name": "backend"
+		}
+	],
+	"settings": {}
+}
