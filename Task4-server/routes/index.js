@@ -26,7 +26,7 @@ router.get('/api/operations/:accountNumber', (req, res) => {
 
 // Save transaction for a specific bank account
 router.post('/api/operations/add', (req, res) => {
-    //console.log(req.body)
+    //console.log(req.bod)
     const account = new AccountOperationsModel({
         accountNumber: req.body.accountNumber,
         transactionType: req.body.transactionType,
